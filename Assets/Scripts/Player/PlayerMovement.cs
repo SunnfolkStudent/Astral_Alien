@@ -79,16 +79,18 @@ public class PlayerMovement : MonoBehaviour
         {
             shootBufferCounter = 0f;
         }
+        
+        
     }
-    
+
     private void FixedUpdate()
     {
-        if (_input.moveDirection.x != 0)
-        {
-            _desiredVelocity.x = moveSpeed;
-        }
+        
+        _rigidbody2D.velocity = new Vector2(_input.moveDirection.x * moveSpeed, _rigidbody2D.velocity.y);
+        
     }
-    
+
+
     private bool IsPlayerGrounded()
     {
         return Physics2D.Raycast(transform.position,
