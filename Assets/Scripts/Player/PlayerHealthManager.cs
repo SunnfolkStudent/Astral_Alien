@@ -12,11 +12,6 @@ public class PlayerHealthManager : MonoBehaviour
     public float canTakeDamageTime = 0.2f;
     public float canTakeDamageCounter;
     
-    private void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     private void Update()
     {
@@ -28,7 +23,7 @@ public class PlayerHealthManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if ( other.CompareTag("Heart"))
+        if (other.CompareTag("Heart"))
         {
             if (lives >= maxLives) return;
             lives += 1;
@@ -43,7 +38,7 @@ public class PlayerHealthManager : MonoBehaviour
             lives -= 1;
             if (lives <= 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
 
             canTakeDamage = false;
