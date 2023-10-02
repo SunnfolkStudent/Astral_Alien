@@ -16,11 +16,11 @@ public class Bullet : MonoBehaviour
         rigidbody.velocity = transform.right * speed;
     }
     
-    private void OnTriggerEnter2D(Collider2D hitInfo)
+    private void OnTriggerExit2D(Collider2D hitInfo)
     {
         if (hitInfo.gameObject.CompareTag("Enemy"))
         {
-            hitInfo.GetComponent<EnemyHealthManager>().TakeDamage(damage);
+            Destroy(gameObject);
         }
     }
 }

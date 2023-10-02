@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpBufferCounter;
 
     [Header("ShootBuffer")] 
-    public float shootBufferTime = 0.6f;
+    public float shootBufferTime = 1f;
     public float shootBufferCounter;
 
     [Header("isGrounded")] 

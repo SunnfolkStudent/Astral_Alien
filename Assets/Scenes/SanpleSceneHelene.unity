@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 171280993}
   - component: {fileID: 171280994}
   - component: {fileID: 171280995}
+  - component: {fileID: 171280996}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -182,12 +183,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: -6191269271290130146, guid: cd5880a1ba3b14e5caf7b5f0bf33c4c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 0.38, y: 0.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -222,6 +223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minHealth: 2
   maxHealth: 20
+  health: 0
+  hit: 0
 --- !u!70 &171280993
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -271,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 022a1971b42c43648a8a869774d3d19a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 0
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
@@ -302,6 +305,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &171280996
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171280989}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: -5220073198313398263, guid: cd5880a1ba3b14e5caf7b5f0bf33c4c3, type: 3}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &198500450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 489290925492976542, guid: afefb2b682d3b47e6b3442603aa14752, type: 3}
