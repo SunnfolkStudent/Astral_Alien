@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class SceneController : MonoBehaviour
 {
-    public void PlayGame()
+    public string sceneName;
+    public void LoadScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene( "sampleSceneBirk");    }
+        SceneManager.LoadScene(sceneName);
+    }
+
+    
 
     public void QuitGame()
     {
-        Debug.Log("QUIT!");
         Application.Quit();
     }
+    
 }
