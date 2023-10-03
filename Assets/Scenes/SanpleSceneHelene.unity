@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 171280993}
   - component: {fileID: 171280994}
   - component: {fileID: 171280995}
+  - component: {fileID: 171280997}
   - component: {fileID: 171280996}
   m_Layer: 0
   m_Name: Enemy
@@ -315,7 +316,7 @@ Animator:
   m_GameObject: {fileID: 171280989}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: -5220073198313398263, guid: cd5880a1ba3b14e5caf7b5f0bf33c4c3, type: 3}
+  m_Controller: {fileID: 9100000, guid: 845e0b58f9eb5b14182e5e569b77c424, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -327,6 +328,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &171280997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171280989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3574a7c6abbcf64794c709f6ce34e91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationTimeCounter: 0
 --- !u!1 &198500450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 489290925492976542, guid: afefb2b682d3b47e6b3442603aa14752, type: 3}
