@@ -1,3 +1,5 @@
+using System;
+using Enemy;
 using UnityEngine;
 
 public class EnemyAnimation : MonoBehaviour
@@ -6,6 +8,7 @@ public class EnemyAnimation : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
     private Rigidbody2D _rigidbody2D;
     private EnemyHealthManager _healthManager;
+    public float animationTimeCounter;
     
     
     
@@ -22,20 +25,31 @@ public class EnemyAnimation : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        
+    }
+
+    private void FixedUpdate()
+    {
         UpdateAnimation();
     }
 
 
     private void UpdateAnimation()
     {
-        if (_healthManager.hit == true)
+        
+        
+        if (_healthManager.hit)
         {
-            _animator.Play(_healthManager.health != 0 
-                ? "hit" : "death");
+            _animator.Play(_healthManager.health != 0 ? "hit" : "death");
+            animationTimeCounter = Time.time + _animator.GetCurrentAnimatorClipInfo(0).Length;
+            print("Im Animating!: " + Time.time);
+            _healthManager.hit = false;
         }
         else
         {
+            if (Time.time < animationTimeCounter) return;
             _animator.Play("walk");
+            print("Im not hit");
         }
     }
 }
