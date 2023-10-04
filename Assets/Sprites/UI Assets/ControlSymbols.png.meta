@@ -1,37 +1,28 @@
 fileFormatVersion: 2
-guid: 0eb24b5a1517247a98366b94b0a532a9
+guid: f5bf63ae79417f443bd4f2367afa318e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7915261827848509790
-    second: memutextaainvert_0
+      213: -3702194505061692588
+    second: ControlSymbols_0
   - first:
-      213: 1719889676087192754
-    second: memutextaainvert_1
+      213: -8674918292033979430
+    second: ControlSymbols_1
   - first:
-      213: -5028934200256934898
-    second: memutextaainvert_2
+      213: -5898972366031895010
+    second: ControlSymbols_2
   - first:
-      213: 1874055558203411393
-    second: memutextaainvert_3
+      213: 104640120253464931
+    second: ControlSymbols_3
   - first:
-      213: 2726575695143018314
-    second: memutextaainvert_4
+      213: -6611065960909670450
+    second: ControlSymbols_4
   - first:
-      213: 7002567152057455639
-    second: memutextaainvert_5
+      213: -7680515167478981504
+    second: ControlSymbols_5
   - first:
-      213: -4613972459401434612
-    second: memutextaainvert_6
-  - first:
-      213: -5347897132320576099
-    second: memutextaainvert_7
-  - first:
-      213: -8667822146470942089
-    second: memutextaainvert_8
-  - first:
-      213: 1086865028664331582
-    second: memutextaainvert_9
+      213: 6617877556937708523
+    second: ControlSymbols_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -78,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,211 +116,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: memutextaainvert_0
+      name: ControlSymbols_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 100
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a661eeed47572290800000000000000
-      internalID: -7915261827848509790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: memutextaainvert_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 99
-        width: 38
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bce90c4c864ed710800000000000000
-      internalID: 1719889676087192754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: memutextaainvert_2
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 83
-        width: 59
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0c4fd24df2a53ab0800000000000000
-      internalID: -5028934200256934898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: memutextaainvert_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 67
-        width: 91
-        height: 15
-      alignment: 9
-      pivot: {x: 0.49562585, y: 0.506635}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1cb8f0cd99bf10a10800000000000000
-      internalID: 1874055558203411393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: memutextaainvert_4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 67
-        width: 20
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4f9632162eb6d520800000000000000
-      internalID: 2726575695143018314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: memutextaainvert_5
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 67
-        width: 38
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 714143e39bd1e2160800000000000000
-      internalID: 7002567152057455639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: memutextaainvert_6
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 51
-        width: 59
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c0a21f97e70e7ffb0800000000000000
-      internalID: -4613972459401434612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: memutextaainvert_7
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 35
-        width: 73
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9da3bc74e378c5b0800000000000000
-      internalID: -5347897132320576099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: memutextaainvert_8
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 19
-        width: 33
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77ae55f8ea5b5b780800000000000000
-      internalID: -8667822146470942089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: memutextaainvert_9
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 3
+        x: 15
+        y: 98
         width: 39
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3d05503cf1551f00800000000000000
-      internalID: 1086865028664331582
+      spriteID: 45b056476b92f9cc0800000000000000
+      internalID: -3702194505061692588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlSymbols_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 83
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbb6cb66cf7c9780800000000000000
+      internalID: -8674918292033979430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlSymbols_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 62
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16c2de13e3a22ea0800000000000000
+      internalID: -5898972366031895010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlSymbols_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 46
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36146fc82a1c37100800000000000000
+      internalID: 104640120253464931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlSymbols_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 46
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec77d451986c044a0800000000000000
+      internalID: -6611065960909670450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlSymbols_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 27
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c5a66f524596590800000000000000
+      internalID: -7680515167478981504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlSymbols_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 5
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be35d44339c67db50800000000000000
+      internalID: 6617877556937708523
       vertices: []
       indices: 
       edges: []
@@ -337,7 +265,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: dd75fdbc9e9ff4bb5a906456cb399c78
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -345,16 +273,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      memutextaainvert_0: -7915261827848509790
-      memutextaainvert_1: 1719889676087192754
-      memutextaainvert_2: -5028934200256934898
-      memutextaainvert_3: 1874055558203411393
-      memutextaainvert_4: 2726575695143018314
-      memutextaainvert_5: 7002567152057455639
-      memutextaainvert_6: -4613972459401434612
-      memutextaainvert_7: -5347897132320576099
-      memutextaainvert_8: -8667822146470942089
-      memutextaainvert_9: 1086865028664331582
+      ControlSymbols_0: -3702194505061692588
+      ControlSymbols_1: -8674918292033979430
+      ControlSymbols_2: -5898972366031895010
+      ControlSymbols_3: 104640120253464931
+      ControlSymbols_4: -6611065960909670450
+      ControlSymbols_5: -7680515167478981504
+      ControlSymbols_6: 6617877556937708523
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
