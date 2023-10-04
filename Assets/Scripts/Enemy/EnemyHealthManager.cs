@@ -20,7 +20,7 @@ namespace Enemy
             if (other.CompareTag("Bullet"))
             {
                 hit = true;
-                print("Im hit: "+ Time.time);
+                
                 TakeDamage(other.GetComponent<Bullet>().damage);
             }
         }
@@ -28,15 +28,9 @@ namespace Enemy
         public void TakeDamage(int damage)
         {
             health -= damage;
-            //hit = false;
-        
-            /*if (health <= 0)
-        {
-            Die();
-        }*/
-        
         }
 
+        //gets called in animator thing inside unity
         private void Die()
         {
             Destroy(gameObject);

@@ -1,15 +1,17 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerHealthManager : MonoBehaviour
 {
     [Header("Health")] 
-    public int lives = 3;
-    public int maxLives = 3;
+    public int health = 3;
+    public int maxHealth = 3;
+    [HideInInspector] public bool hit = false;
 
     [Header("IFrames")] 
     public bool canTakeDamage;
-    public float canTakeDamageTime = 0.2f;
+    public float canTakeDamageTime = 0.4f;
     public float canTakeDamageCounter;
     
     // Update is called once per frame
@@ -23,10 +25,11 @@ public class PlayerHealthManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         if (other.CompareTag("Heart"))
         {
-            if (lives >= maxLives) return;
-            lives += 1;
+            if (health >= maxHealth) return;
+            health += 1;
             
         }
     }
@@ -35,8 +38,9 @@ public class PlayerHealthManager : MonoBehaviour
     {
         if (canTakeDamage && other.CompareTag("Enemy"))
         {
-            lives -= 1;
-            if (lives <= 0)
+            health -= 1;
+            
+            if (health <= 0)
             {
                 //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
@@ -45,6 +49,4 @@ public class PlayerHealthManager : MonoBehaviour
             canTakeDamageCounter = Time.time + canTakeDamageTime;
         }
     }
-    
-    
 }

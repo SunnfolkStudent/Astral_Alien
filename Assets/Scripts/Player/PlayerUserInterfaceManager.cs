@@ -12,7 +12,7 @@ public class PlayerUserInterfaceManager : MonoBehaviour
     {
         for (int i = 0; i < hearts.Length; i++)
         {
-            hearts[i].color = i < playerHealth.lives ? 
+            hearts[i].color = i < playerHealth.health ? 
                 new Color(1, 1, 1, 1) : new Color(1, 1, 1, 0.2f);
         }
     }

@@ -7,7 +7,7 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     private InputManager _input;
-
+    
     private void Start()
     {
         _input = GetComponent<InputManager>();

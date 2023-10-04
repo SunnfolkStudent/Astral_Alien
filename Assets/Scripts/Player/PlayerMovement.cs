@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")] 
     public float moveSpeed = 4f;
-    public float jumpSpeed = 10f;
+    public float jumpSpeed = 6f;
     private Vector2 _desiredVelocity;
 
     [Header("CoyoteTime")] 
@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Components")]
     private Rigidbody2D _rigidbody2D;
     private InputManager _input;
+    private CollisionManager _collision;
     
     
     
@@ -38,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _input = GetComponent<InputManager>();
+        _collision = GetComponent<CollisionManager>();
     }
 
     
@@ -45,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _desiredVelocity = _rigidbody2D.velocity;
 
-        if (IsPlayerGrounded())
+        if (_collision.IsPlayerGrounded())
         { coyoteTimeCounter = coyoteTime; }
         else
         { coyoteTimeCounter -= 1 * Time.deltaTime; }
@@ -90,10 +92,5 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-
-    private bool IsPlayerGrounded()
-    {
-        return Physics2D.Raycast(transform.position,
-            Vector2.down, 1.5f, whatIsGround);
-    }
+    
 }
