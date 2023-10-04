@@ -1,13 +1,37 @@
 fileFormatVersion: 2
-guid: 71dde77fc95d6334399f955e6d3ae347
+guid: 0eb24b5a1517247a98366b94b0a532a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8656243802110195557
-    second: aa_tilesheet_0
+      213: -7915261827848509790
+    second: memutextaainvert_0
   - first:
-      213: -8980313364037598844
-    second: aa_tilesheet_1
+      213: 1719889676087192754
+    second: memutextaainvert_1
+  - first:
+      213: -5028934200256934898
+    second: memutextaainvert_2
+  - first:
+      213: 1874055558203411393
+    second: memutextaainvert_3
+  - first:
+      213: 2726575695143018314
+    second: memutextaainvert_4
+  - first:
+      213: 7002567152057455639
+    second: memutextaainvert_5
+  - first:
+      213: -4613972459401434612
+    second: memutextaainvert_6
+  - first:
+      213: -5347897132320576099
+    second: memutextaainvert_7
+  - first:
+      213: -8667822146470942089
+    second: memutextaainvert_8
+  - first:
+      213: 1086865028664331582
+    second: memutextaainvert_9
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -54,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,236 +125,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: aa_tilesheet_0
+      name: memutextaainvert_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 28}
-        - {x: -10, y: 18}
-        - {x: -11, y: 11}
-        - {x: -17, y: 3}
-        - {x: -17, y: -8}
-        - {x: -21, y: -14}
-        - {x: -25, y: -24}
-        - {x: -32, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 32}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56774f110e7212870800000000000000
-      internalID: 8656243802110195557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: aa_tilesheet_1
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 32}
-        - {x: -32, y: -32}
-        - {x: 32, y: -32}
-        - {x: 28, y: -24}
-        - {x: 24, y: -19}
-        - {x: 23, y: -14}
-        - {x: 19, y: -8}
-        - {x: 19, y: 2}
-        - {x: 14, y: 10}
-        - {x: 13, y: 18}
-        - {x: -6, y: 29}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48188dc33948f5380800000000000000
-      internalID: -8980313364037598844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: aa_tilesheet_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
+        x: 1
+        y: 100
+        width: 16
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 77915cca87c66794a878f4ab72be38c2
-      internalID: 1230393630
+      spriteID: 2a661eeed47572290800000000000000
+      internalID: -7915261827848509790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aa_tilesheet_3
+      name: memutextaainvert_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
+        x: 16
+        y: 99
+        width: 38
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 78debd11dc49df84f981a586ffd6a02f
-      internalID: 1861673586
+      spriteID: 2bce90c4c864ed710800000000000000
+      internalID: 1719889676087192754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aa_tilesheet_4
+      name: memutextaainvert_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 16
+        y: 83
+        width: 59
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2b41120d6fba564479309553a9612ff7
-      internalID: -1336998523
+      spriteID: e0c4fd24df2a53ab0800000000000000
+      internalID: -5028934200256934898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aa_tilesheet_5
+      name: memutextaainvert_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 16
+        y: 67
+        width: 91
+        height: 15
+      alignment: 9
+      pivot: {x: 0.49562585, y: 0.506635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb8f0cd99bf10a10800000000000000
+      internalID: 1874055558203411393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 67
+        width: 20
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 347fd607f36ff254f96d5e7380c356ae
-      internalID: -1730125901
+      spriteID: a4f9632162eb6d520800000000000000
+      internalID: 2726575695143018314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aa_tilesheet_6
+      name: memutextaainvert_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 28}
-        - {x: -32, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 28}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3c879f6f7954284d89ab7a02d189620
-      internalID: -1177103979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: aa_tilesheet_7
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 69
+        y: 67
+        width: 38
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2de5a1aabf36c254c9a17d728b0db461
-      internalID: -483589067
+      spriteID: 714143e39bd1e2160800000000000000
+      internalID: 7002567152057455639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aa_tilesheet_8
+      name: memutextaainvert_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 16
+        y: 51
+        width: 59
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 11eecaa33536a4b4eb840db0387b27e9
-      internalID: 1632204779
+      spriteID: c0a21f97e70e7ffb0800000000000000
+      internalID: -4613972459401434612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aa_tilesheet_9
+      name: memutextaainvert_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
+        x: 16
+        y: 35
+        width: 73
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7be2fc62a10b2fa43aea1c44342724af
-      internalID: 2041621477
+      spriteID: d9da3bc74e378c5b0800000000000000
+      internalID: -5347897132320576099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 19
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ae55f8ea5b5b780800000000000000
+      internalID: -8667822146470942089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d05503cf1551f00800000000000000
+      internalID: 1086865028664331582
       vertices: []
       indices: 
       edges: []
@@ -338,7 +337,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 00044d7fa0d3a29468cf7245505ef9a6
+    spriteID: dd75fdbc9e9ff4bb5a906456cb399c78
     internalID: 0
     vertices: []
     indices: 
@@ -346,16 +345,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      aa_tilesheet_0: 8656243802110195557
-      aa_tilesheet_1: -8980313364037598844
-      aa_tilesheet_2: 1230393630
-      aa_tilesheet_3: 1861673586
-      aa_tilesheet_4: -1336998523
-      aa_tilesheet_5: -1730125901
-      aa_tilesheet_6: -1177103979
-      aa_tilesheet_7: -483589067
-      aa_tilesheet_8: 1632204779
-      aa_tilesheet_9: 2041621477
+      memutextaainvert_0: -7915261827848509790
+      memutextaainvert_1: 1719889676087192754
+      memutextaainvert_2: -5028934200256934898
+      memutextaainvert_3: 1874055558203411393
+      memutextaainvert_4: 2726575695143018314
+      memutextaainvert_5: 7002567152057455639
+      memutextaainvert_6: -4613972459401434612
+      memutextaainvert_7: -5347897132320576099
+      memutextaainvert_8: -8667822146470942089
+      memutextaainvert_9: 1086865028664331582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
