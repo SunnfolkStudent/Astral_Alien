@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 0eb24b5a1517247a98366b94b0a532a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7915261827848509790
+    second: memutextaainvert_0
+  - first:
+      213: 1719889676087192754
+    second: memutextaainvert_1
+  - first:
+      213: -5028934200256934898
+    second: memutextaainvert_2
+  - first:
+      213: 1874055558203411393
+    second: memutextaainvert_3
+  - first:
+      213: 2726575695143018314
+    second: memutextaainvert_4
+  - first:
+      213: 7002567152057455639
+    second: memutextaainvert_5
+  - first:
+      213: -4613972459401434612
+    second: memutextaainvert_6
+  - first:
+      213: -5347897132320576099
+    second: memutextaainvert_7
+  - first:
+      213: -8667822146470942089
+    second: memutextaainvert_8
+  - first:
+      213: 1086865028664331582
+    second: memutextaainvert_9
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: memutextaainvert_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a661eeed47572290800000000000000
+      internalID: -7915261827848509790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 99
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bce90c4c864ed710800000000000000
+      internalID: 1719889676087192754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 83
+        width: 59
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c4fd24df2a53ab0800000000000000
+      internalID: -5028934200256934898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 67
+        width: 91
+        height: 15
+      alignment: 9
+      pivot: {x: 0.49562585, y: 0.506635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb8f0cd99bf10a10800000000000000
+      internalID: 1874055558203411393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 67
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f9632162eb6d520800000000000000
+      internalID: 2726575695143018314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 67
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714143e39bd1e2160800000000000000
+      internalID: 7002567152057455639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 51
+        width: 59
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a21f97e70e7ffb0800000000000000
+      internalID: -4613972459401434612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 35
+        width: 73
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9da3bc74e378c5b0800000000000000
+      internalID: -5347897132320576099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 19
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ae55f8ea5b5b780800000000000000
+      internalID: -8667822146470942089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memutextaainvert_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d05503cf1551f00800000000000000
+      internalID: 1086865028664331582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dd75fdbc9e9ff4bb5a906456cb399c78
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      memutextaainvert_0: -7915261827848509790
+      memutextaainvert_1: 1719889676087192754
+      memutextaainvert_2: -5028934200256934898
+      memutextaainvert_3: 1874055558203411393
+      memutextaainvert_4: 2726575695143018314
+      memutextaainvert_5: 7002567152057455639
+      memutextaainvert_6: -4613972459401434612
+      memutextaainvert_7: -5347897132320576099
+      memutextaainvert_8: -8667822146470942089
+      memutextaainvert_9: 1086865028664331582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
