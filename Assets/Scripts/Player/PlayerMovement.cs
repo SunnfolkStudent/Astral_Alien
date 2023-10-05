@@ -69,11 +69,13 @@ public class PlayerMovement : MonoBehaviour
             jumpBufferCounter = 0f;
         }
 
+        /*
         if (_input.jumpReleased && _rigidbody2D.velocity.y > 0f)
         {
             _desiredVelocity.y *= 0.5f;
             coyoteTimeCounter = 0f;
         }
+        */
         _rigidbody2D.velocity = _desiredVelocity;
         
         //Shooting

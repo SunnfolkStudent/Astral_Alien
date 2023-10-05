@@ -13,6 +13,7 @@ namespace Player
         private PlayerHealthManager _healthManager;
         private CollisionManager _collision;
         private InputManager _input;
+        
         public float animationTimeCounter;
         
         
@@ -36,22 +37,16 @@ namespace Player
         private void UpdateAnimation()
         {
 
-            if (!_collision.IsPlayerGrounded())
-            {
-                _animator.Play(_rigidbody2D.velocity.y > 0 ? "jump" : "fall"); 
-                
-            }
-            else
-            {
-                if (Time.time < animationTimeCounter) return;
-                _animator.Play("run front");
-            }
-            
             if (_healthManager.hit)
             {
                 _animator.Play(_healthManager.health);
                 _healthManager.canTakeDamage = false;
                 animationTimeCounter = Time.time + _animator.GetCurrentAnimatorClipInfo(0).Length;
+            }
+            else if (!_collision.IsPlayerGrounded())
+            {
+                _animator.Play(_rigidbody2D.velocity.y > 0 ? "jump" : "fall"); 
+                
             }
             else
             {

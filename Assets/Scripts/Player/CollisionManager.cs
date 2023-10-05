@@ -19,7 +19,6 @@ public class CollisionManager : MonoBehaviour
 
     public bool IsPlayerGrounded()
     {
-        return Physics2D.Raycast(transform.position,
-            Vector2.down, 0.5f, whatIsGround);
+        return Physics2D.Raycast(transform.position,Vector2.down, 0.5f, whatIsGround);
     }
 }
