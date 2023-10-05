@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,10 +8,10 @@ public class CollisionManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Goal"))
+        /*if (other.CompareTag("Goal"))
         {
             SceneManager.LoadScene("Win");
-        }
+        }*/
     }
 
     public bool IsPlayerGrounded()

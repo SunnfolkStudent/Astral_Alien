@@ -40,13 +40,19 @@ public class PlayerHealthManager : MonoBehaviour
         {
             health -= 1;
             
-            if (health <= 0)
+            /*if (health <= 0)
             {
-                //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }*/
 
             canTakeDamage = false;
             canTakeDamageCounter = Time.time + canTakeDamageTime;
         }
     }
+
+    private void Die()
+    {
+        SceneManager.LoadScene("TryAgain");
+    }
+    
 }

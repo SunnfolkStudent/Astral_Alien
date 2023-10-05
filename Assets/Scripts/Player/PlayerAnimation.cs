@@ -39,7 +39,7 @@ namespace Player
 
             if (_healthManager.hit)
             {
-                _animator.Play(_healthManager.health);
+                _animator.Play(_healthManager.health !>= 0 ? "hit" : "death");
                 _healthManager.canTakeDamage = false;
                 animationTimeCounter = Time.time + _animator.GetCurrentAnimatorClipInfo(0).Length;
             }
