@@ -42,7 +42,7 @@ public class PlayerHealthManager : MonoBehaviour
             
             /*if (health <= 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene("WinScreen");
             }*/
 
             canTakeDamage = false;
@@ -52,7 +52,7 @@ public class PlayerHealthManager : MonoBehaviour
 
     private void Die()
     {
-        SceneManager.LoadScene("TryAgain");
+        SceneManager.LoadScene("LoseScreen");
     }
     
 }

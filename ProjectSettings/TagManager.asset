@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Bullet
   - DeathZone
+  - Goal
   layers:
   - Default
   - TransparentFX

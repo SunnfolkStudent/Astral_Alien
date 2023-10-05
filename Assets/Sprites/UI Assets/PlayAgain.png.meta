@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 5ee40469301d0e2479f17944e9fd96d9
+guid: 18c5020294f65054a9c790dd7b6ed005
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1917456623886003214
-    second: YouWin_0
+      213: -8887358928168015453
+    second: PlayAgain_0
   - first:
-      213: -1396798009471981283
-    second: YouWin_1
+      213: 4702809581593893410
+    second: PlayAgain_1
   - first:
-      213: 2528601813430723449
-    second: YouWin_2
+      213: -4140241506261603646
+    second: PlayAgain_2
   - first:
-      213: -7904038923087203216
-    second: YouWin_3
+      213: -2196360031220902354
+    second: PlayAgain_3
+  - first:
+      213: -4856005703347166990
+    second: PlayAgain_4
+  - first:
+      213: 1890786093788037319
+    second: PlayAgain_5
+  - first:
+      213: 3904789693948263853
+    second: PlayAgain_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -107,12 +116,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: YouWin_0
+      name: PlayAgain_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 21
-        width: 130
+        x: 10
+        y: 19
+        width: 90
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -121,19 +130,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f31e051c53d365e0800000000000000
-      internalID: -1917456623886003214
+      spriteID: 3a9262f5422c9a480800000000000000
+      internalID: -8887358928168015453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: YouWin_1
+      name: PlayAgain_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 5
-        width: 68
+        x: 23
+        y: 34
+        width: 63
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -142,8 +151,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1923766c939d9ce0800000000000000
-      internalID: -1396798009471981283
+      spriteID: 22a153dd56cb34140800000000000000
+      internalID: 4702809581593893410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayAgain_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 4
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c00c7a3feb6d3a10800000000000000
+      internalID: 1890786093788037319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayAgain_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 4
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad7466c989903630800000000000000
+      internalID: 3904789693948263853
       vertices: []
       indices: 
       edges: []
@@ -151,7 +202,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6d8fa5243c0ab6441afcdd6ba4963e93
+    spriteID: 70ab77e8e9cb86f48a5d647f9d9c73ab
     internalID: 0
     vertices: []
     indices: 
@@ -159,10 +210,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      YouWin_0: -1917456623886003214
-      YouWin_1: -1396798009471981283
-      YouWin_2: 2528601813430723449
-      YouWin_3: -7904038923087203216
+      PlayAgain_0: -8887358928168015453
+      PlayAgain_1: 4702809581593893410
+      PlayAgain_2: -4140241506261603646
+      PlayAgain_3: -2196360031220902354
+      PlayAgain_4: -4856005703347166990
+      PlayAgain_5: 1890786093788037319
+      PlayAgain_6: 3904789693948263853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

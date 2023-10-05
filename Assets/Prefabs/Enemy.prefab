@@ -155,10 +155,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 022a1971b42c43648a8a869774d3d19a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
+  moveSpeed: 1.5
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  playerCamera: {fileID: 0}
+  distance: 11
 --- !u!50 &8839696558639496034
 Rigidbody2D:
   serializedVersion: 4

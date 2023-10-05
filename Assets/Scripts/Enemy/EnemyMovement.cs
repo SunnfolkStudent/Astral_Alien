@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    
     public float moveSpeed = 5f;
-    public float raycastDistance = 5f;
     public LayerMask whatIsGround;
+    public Camera playerCamera;
+    public float distance = 11f;
     
-    private float _startSpeed = 0f;
     private Rigidbody2D _rigidbody2D;
+    private float _difference;
+    
     
     private void Start()
     {
@@ -18,17 +19,14 @@ public class EnemyMovement : MonoBehaviour
     
     private void FixedUpdate()
     {
-        Vector2 raycastOrigin = transform.position;
-        Vector2 raycastDirection = transform.right;
-
-        RaycastHit2D hit = Physics2D.Raycast(raycastOrigin, raycastDirection, raycastDistance);
-        if (hit.collider.CompareTag("MainCamera"))
+        _difference = transform.position.x - playerCamera.transform.position.x;
+        if (!IsGrounded()) return; 
+        if (_difference < distance)
         {
-            _startSpeed = moveSpeed;
+            _rigidbody2D.velocity = new Vector2(-transform.localScale.x * moveSpeed, _rigidbody2D.velocity.y);
         }
         
-        if (!IsGrounded()) return; 
-        _rigidbody2D.velocity = new Vector2(-transform.localScale.x * moveSpeed, _rigidbody2D.velocity.y);
+        
         
     }
 
@@ -42,6 +40,6 @@ public class EnemyMovement : MonoBehaviour
         return Physics2D.Raycast(transform.position, 
             Vector2.down, 1.5f, whatIsGround);
     }
-    
+
     
 }

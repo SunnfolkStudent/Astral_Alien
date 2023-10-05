@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 5ee40469301d0e2479f17944e9fd96d9
+guid: 22a1ea1631820d642938d1805e6853b4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1917456623886003214
-    second: YouWin_0
-  - first:
-      213: -1396798009471981283
-    second: YouWin_1
-  - first:
-      213: 2528601813430723449
-    second: YouWin_2
-  - first:
-      213: -7904038923087203216
-    second: YouWin_3
+      213: -1104133786651172462
+    second: RocketShip_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -107,43 +98,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: YouWin_0
+      name: RocketShip_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 21
-        width: 130
-        height: 15
+        x: 0
+        y: 0
+        width: 64
+        height: 112
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f31e051c53d365e0800000000000000
-      internalID: -1917456623886003214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: YouWin_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 5
-        width: 68
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d1923766c939d9ce0800000000000000
-      internalID: -1396798009471981283
+      spriteID: 2916626cb245da0f0800000000000000
+      internalID: -1104133786651172462
       vertices: []
       indices: 
       edges: []
@@ -151,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6d8fa5243c0ab6441afcdd6ba4963e93
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -159,10 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      YouWin_0: -1917456623886003214
-      YouWin_1: -1396798009471981283
-      YouWin_2: 2528601813430723449
-      YouWin_3: -7904038923087203216
+      RocketShip_0: -1104133786651172462
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

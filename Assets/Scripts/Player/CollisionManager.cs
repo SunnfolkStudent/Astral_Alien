@@ -8,10 +8,14 @@ public class CollisionManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        /*if (other.CompareTag("Goal"))
+        if (other.CompareTag("DeathZone"))
         {
-            SceneManager.LoadScene("Win");
-        }*/
+            SceneManager.LoadScene("LoseScreen");
+        }
+        if (other.CompareTag("Goal"))
+        {
+            SceneManager.LoadScene("WinScreen");
+        }
     }
 
     public bool IsPlayerGrounded()
