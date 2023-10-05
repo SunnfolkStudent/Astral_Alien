@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Planets_background_0: -4843051269840863526
+      Planets_background_1: 6727113209214781265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
