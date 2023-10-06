@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
@@ -14,6 +15,7 @@ public class EnemyMovement : MonoBehaviour
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        playerCamera = Camera.main;
         
     }
     
