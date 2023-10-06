@@ -52,7 +52,7 @@ public class PlayerHealthManager : MonoBehaviour
 
     private void Die()
     {
-        SceneManager.LoadScene("LoseScreen");
+        SceneManager.LoadScene("LoseScene");
     }
     
 }

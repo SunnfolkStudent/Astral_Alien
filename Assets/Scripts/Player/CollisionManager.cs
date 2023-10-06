@@ -10,11 +10,11 @@ public class CollisionManager : MonoBehaviour
     {
         if (other.CompareTag("DeathZone"))
         {
-            SceneManager.LoadScene("LoseScreen");
+            SceneManager.LoadScene("LoseScene");
         }
         if (other.CompareTag("Goal"))
         {
-            SceneManager.LoadScene("WinScreen");
+            SceneManager.LoadScene("WinScene");
         }
     }
 
