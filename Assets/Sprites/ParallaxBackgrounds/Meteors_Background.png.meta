@@ -131,12 +131,12 @@ TextureImporter:
       name: Meteors_Background_0
       rect:
         serializedVersion: 2
-        x: 399
-        y: 414
-        width: 23
-        height: 19
+        x: 26
+        y: 199
+        width: 410
+        height: 237
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,220 +148,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 377
-        width: 55
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b6b9ee278466aac0800000000000000
-      internalID: -3844274700143708493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_2
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 384
-        width: 26
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3049a3094ebd1c10800000000000000
-      internalID: 2025984628189904958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_3
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 342
-        width: 23
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1b999a36933dd940800000000000000
-      internalID: 5322467054943050522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_4
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 308
-        width: 26
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35ba569bbf0d8d210800000000000000
-      internalID: 1358065067218021203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_5
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 294
-        width: 25
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95a859f836c434020800000000000000
-      internalID: 2324785823147723353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_6
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 246
-        width: 23
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9df8d3382c330ebe0800000000000000
-      internalID: -1450102169494777895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_7
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 242
-        width: 55
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 017db6ca6d3aaaaf0800000000000000
-      internalID: -384314675775678704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_8
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 257
-        width: 55
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8405f28f827c75090800000000000000
-      internalID: -8045743230497632184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_9
-      rect:
-        serializedVersion: 2
-        x: 411
-        y: 258
-        width: 23
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4d486e3103c7f6d0800000000000000
-      internalID: -2956680220236034739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meteors_Background_10
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 201
-        width: 23
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad08548611a60d3f0800000000000000
-      internalID: -878085304340872998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1075112e689a9614b8656631b1dfd51d
     internalID: 0
     vertices: []
     indices: 
