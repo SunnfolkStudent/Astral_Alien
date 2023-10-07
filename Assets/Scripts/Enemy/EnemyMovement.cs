@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     public LayerMask whatIsGround;
     public Camera playerCamera;
     public float distance = 11f;
+    public bool canMove;
     
     private Rigidbody2D _rigidbody2D;
     private float _difference;
@@ -16,11 +17,13 @@ public class EnemyMovement : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         playerCamera = Camera.main;
-        
+        canMove = true;
+
     }
     
     private void FixedUpdate()
     {
+        if (canMove == false) return;
         _difference = transform.position.x - playerCamera.transform.position.x;
         if (!IsGrounded()) return; 
         if (_difference < distance)

@@ -10,6 +10,7 @@ namespace Enemy
         private SpriteRenderer _spriteRenderer;
         private Rigidbody2D _rigidbody2D;
         private EnemyHealthManager _healthManager;
+        private EnemyMovement _movement;
         public float animationTimeCounter;
     
         // Start is called before the first frame update
@@ -19,7 +20,7 @@ namespace Enemy
             _animator = GetComponent<Animator>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _healthManager = GetComponent<EnemyHealthManager>();
-        
+            _movement = GetComponent<EnemyMovement>();
         }
     
         private void FixedUpdate()
@@ -34,14 +35,16 @@ namespace Enemy
         
             if (_healthManager.hit)
             {
-                _animator.Play(_healthManager.health !>= 0  ? "hit" : "death");
-                animationTimeCounter = Time.time + _animator.GetCurrentAnimatorClipInfo(0).Length;
+                _movement.canMove = false;
+                _animator.Play(_healthManager.health > 0  ? "hit" : "death");
+                animationTimeCounter = Time.time + _animator.GetCurrentAnimatorClipInfo(0).Length*0.4f;
                 //print("Im Animating!: " + Time.time);
                 _healthManager.hit = false;
             }
             else
             {
                 if (Time.time < animationTimeCounter) return;
+                _movement.canMove = true;
                 _animator.Play("walk");
                 //print("Im not hit");
             }

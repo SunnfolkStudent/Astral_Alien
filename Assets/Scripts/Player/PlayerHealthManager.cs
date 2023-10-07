@@ -30,21 +30,16 @@ public class PlayerHealthManager : MonoBehaviour
         {
             if (health >= maxHealth) return;
             health += 1;
-            
+            Destroy(other.gameObject);
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnCollisionStay2D(Collision2D other)
     {
-        if (canTakeDamage && other.CompareTag("Enemy"))
+        if (canTakeDamage && other.transform.CompareTag("Enemy"))
         {
             health -= 1;
-            
-            /*if (health <= 0)
-            {
-                SceneManager.LoadScene("WinScreen");
-            }*/
-
+            hit = true;
             canTakeDamage = false;
             canTakeDamageCounter = Time.time + canTakeDamageTime;
         }
