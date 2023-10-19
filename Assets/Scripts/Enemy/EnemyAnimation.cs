@@ -1,5 +1,3 @@
-using System;
-using Enemy;
 using UnityEngine;
 
 namespace Enemy
@@ -23,7 +21,7 @@ namespace Enemy
             _movement = GetComponent<EnemyMovement>();
         }
     
-        private void FixedUpdate()
+        private void Update()
         {
             UpdateAnimation();
         }
@@ -31,19 +29,40 @@ namespace Enemy
 
         private void UpdateAnimation()
         {
-        
-        
+            if (Time.time < animationTimeCounter) return;
+            
             if (_healthManager.hit)
             {
                 _movement.canMove = false;
-                _animator.Play(_healthManager.health > 0  ? "hit" : "death");
-                animationTimeCounter = Time.time + _animator.GetCurrentAnimatorClipInfo(0).Length*0.4f;
+                //_animator.Play(_healthManager.health > 0  ? "hit" : "death");
+                if (_healthManager.health > 0)
+                {
+                    _animator.Play("hit");
+                    _healthManager.hit = false;
+                } 
+                else if (_healthManager.health <= 0)
+                {
+                    _animator.Play("death");
+                }
+
+                if (_animator.GetCurrentAnimatorStateInfo(0).IsName("death"))
+                {
+                    print("desth"+_animator.GetCurrentAnimatorClipInfo(0).Length);
+                    animationTimeCounter = Time.time * 200;
+                    print(animationTimeCounter + " " + Time.time);
+                }
+                else
+                {
+                    print("hit"+_animator.GetCurrentAnimatorClipInfo(0).Length);
+                    animationTimeCounter = Time.time + 0.4f;
+                }
+                //animationTimeCounter = Time.time + 0.4f; // _animator.GetCurrentAnimatorClipInfo(0).Length*0.4f;
                 //print("Im Animating!: " + Time.time);
-                _healthManager.hit = false;
+                
             }
             else
             {
-                if (Time.time < animationTimeCounter) return;
+               // if (Time.time < animationTimeCounter) return;
                 _movement.canMove = true;
                 _animator.Play("walk");
                 //print("Im not hit");

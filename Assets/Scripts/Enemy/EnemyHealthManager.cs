@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -28,6 +29,7 @@ namespace Enemy
         public void TakeDamage(int damage)
         {
             health -= damage;
+            print("The health of enemy is: " + health);
         }
 
         //gets called in animator thing inside unity

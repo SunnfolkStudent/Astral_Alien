@@ -31,8 +31,6 @@ public class EnemyMovement : MonoBehaviour
             _rigidbody2D.velocity = new Vector2(-transform.localScale.x * moveSpeed, _rigidbody2D.velocity.y);
         }
         
-        
-        
     }
 
     private void LateUpdate()
