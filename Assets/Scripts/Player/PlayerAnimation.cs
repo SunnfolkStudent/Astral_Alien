@@ -42,19 +42,18 @@ namespace Player
             if (Time.time < animationTimeCounter) return;
             if (_healthManager.hit)
             {
-                _animator.Play(_healthManager.health > 0 ? "hit" : "death");
                 _healthManager.canTakeDamage = false;
-               
-
-                if (_animator.GetCurrentAnimatorStateInfo(0).IsName("hit"))
+                if (_healthManager.health > 0)
                 {
-                    animationTimeCounter = Time.time + 0.18f;
+                    _animator.Play("hit");
+                    _healthManager.hit = false;
+                    animationTimeCounter = Time.time + 0.3f;
                 }
-                else
+                else if (_healthManager.health <= 0)
                 {
-                    animationTimeCounter = Time.time +1;
+                    _animator.Play("death");
                 }
-                _healthManager.hit = false;
+                
             }
             else if (!_collision.IsPlayerGrounded())
             {

@@ -39,25 +39,14 @@ namespace Enemy
                 {
                     _animator.Play("hit");
                     _healthManager.hit = false;
+                    animationTimeCounter = Time.time + 0.4f;
                 } 
                 else if (_healthManager.health <= 0)
                 {
                     _animator.Play("death");
                 }
 
-                if (_animator.GetCurrentAnimatorStateInfo(0).IsName("death"))
-                {
-                    print("desth"+_animator.GetCurrentAnimatorClipInfo(0).Length);
-                    animationTimeCounter = Time.time * 200;
-                    print(animationTimeCounter + " " + Time.time);
-                }
-                else
-                {
-                    print("hit"+_animator.GetCurrentAnimatorClipInfo(0).Length);
-                    animationTimeCounter = Time.time + 0.4f;
-                }
-                //animationTimeCounter = Time.time + 0.4f; // _animator.GetCurrentAnimatorClipInfo(0).Length*0.4f;
-                //print("Im Animating!: " + Time.time);
+                
                 
             }
             else

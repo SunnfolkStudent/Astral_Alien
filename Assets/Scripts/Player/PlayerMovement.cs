@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -32,23 +29,33 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private InputManager _input;
     private CollisionManager _collision;
-    
-    
+    private PlayerHealthManager _healthManager;
+
+    [Header("Knockback")] 
+    public float KBForce = 400;
+    public float KBCounter;
     
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _input = GetComponent<InputManager>();
         _collision = GetComponent<CollisionManager>();
+        _healthManager = GetComponent<PlayerHealthManager>();
     }
 
     
     private void Update()
     {
+        if (_healthManager.health <= 0) return;
+        
+        
         _desiredVelocity = _rigidbody2D.velocity;
 
         if (_collision.IsPlayerGrounded())
-        { coyoteTimeCounter = coyoteTime; }
+        {
+            coyoteTimeCounter = coyoteTime;
+            
+        }
         else
         { coyoteTimeCounter -= 1 * Time.deltaTime; }
 
@@ -76,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter = 0f;
         }
         */
-        _rigidbody2D.velocity = _desiredVelocity;
+      
         
         //Shooting
         if (shootBufferCounter > 0)
@@ -84,11 +91,21 @@ public class PlayerMovement : MonoBehaviour
             shootBufferCounter = 0f;
         }
         
+        if (_healthManager.hit)
+        {
+            _desiredVelocity = new Vector2(-0.5f, 0.5f) * (KBForce * Time.deltaTime);
+            KBCounter = Time.time + 1f;
+        }
         
+        _rigidbody2D.velocity = _desiredVelocity;
     }
 
     private void FixedUpdate()
     {
+        if (_healthManager.health <= 0) return;
+
+        if (KBCounter > Time.time) return;
+        print("Running");
         
         _rigidbody2D.velocity = new Vector2(_input.moveDirection.x * moveSpeed, _rigidbody2D.velocity.y);
         
