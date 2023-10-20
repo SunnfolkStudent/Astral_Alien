@@ -24,6 +24,11 @@ namespace Enemy
                 
                 TakeDamage(other.GetComponent<Bullet>().damage);
             }
+
+            if (other.CompareTag("Despawn") || other.CompareTag("DeathZone"))
+            {
+                Destroy(gameObject);
+            }
         }
     
         public void TakeDamage(int damage)

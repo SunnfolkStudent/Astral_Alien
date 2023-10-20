@@ -28,10 +28,12 @@ public class PlayerHealthManager : MonoBehaviour
         
         if (other.CompareTag("Heart"))
         {
+            Destroy(other.gameObject);
             if (health >= maxHealth) return;
             health += 1;
-            Destroy(other.gameObject);
         }
+        
+        
     }
 
     private void OnCollisionStay2D(Collision2D other)

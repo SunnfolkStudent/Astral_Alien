@@ -18,10 +18,10 @@ public class Bullet : MonoBehaviour
     
     private void OnTriggerExit2D(Collider2D hitInfo)
     {
-        if (hitInfo.gameObject.CompareTag("Enemy"))
+        if (hitInfo.gameObject.CompareTag("Enemy") || hitInfo.gameObject.CompareTag("Despawn"))
         {
             Destroy(gameObject);
         }
-        Destroy(gameObject);
+        
     }
 }

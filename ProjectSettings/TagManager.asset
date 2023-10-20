@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - DeathZone
   - Goal
+  - Despawn
   layers:
   - Default
   - TransparentFX

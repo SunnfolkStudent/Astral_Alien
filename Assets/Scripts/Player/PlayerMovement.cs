@@ -93,7 +93,8 @@ public class PlayerMovement : MonoBehaviour
         
         if (_healthManager.hit)
         {
-            _desiredVelocity = new Vector2(-0.5f, 0.5f) * (KBForce * Time.deltaTime);
+           // _desiredVelocity = new Vector2(-0.5f, 0.5f) * (KBForce * Time.deltaTime);
+            _desiredVelocity = new Vector2(-0.5f, 0.5f) * KBForce;
             KBCounter = Time.time + 1f;
         }
         
