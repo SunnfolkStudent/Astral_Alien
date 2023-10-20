@@ -17,7 +17,7 @@ public class HeartUIManager : MonoBehaviour
     {
         for (int i = 0; i < hearts.Length; i++)
         {
-            hearts[i].color = i < _target.health ? new Color32(204, 219, 190, 255) : new Color32(204, 219, 190, 75);
+            hearts[i].color = i < _target.health ? new Color32(230, 248, 212, 255) : new Color32(230, 248, 212, 75);
         }
     }
 }

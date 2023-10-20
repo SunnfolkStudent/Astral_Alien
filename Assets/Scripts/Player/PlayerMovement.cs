@@ -105,7 +105,6 @@ public class PlayerMovement : MonoBehaviour
         if (_healthManager.health <= 0) return;
 
         if (KBCounter > Time.time) return;
-        print("Running");
         
         _rigidbody2D.velocity = new Vector2(_input.moveDirection.x * moveSpeed, _rigidbody2D.velocity.y);
         
